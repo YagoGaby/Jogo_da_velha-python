@@ -59,7 +59,7 @@ def verificaGanhador(board):
 
   #Diagonal 2
   if (board[0][2] !=nada and board[0][2] == board[1][1] and board[1][1] == board[2][0]):
-      return board[0][0]
+      return board[0][2]
 
   for i in range(3):
     for j in range(3):
